@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180032C51C43394A00E64A36 /* TintLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180032C41C43394A00E64A36 /* TintLabel.m */; };
+		180032CF1C433BB400E64A36 /* UILabel+TintChanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 180032CE1C433BB400E64A36 /* UILabel+TintChanger.m */; };
+		180032D21C435B4500E64A36 /* PagerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 180032D11C435B4500E64A36 /* PagerButton.m */; };
+		180032D51C4388AB00E64A36 /* PagerButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180032D41C4388AB00E64A36 /* PagerButtonViewController.m */; };
+		182D5D941C3F897D003BF744 /* ImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D5D931C3F897D003BF744 /* ImageViewViewController.m */; };
+		182D5D971C3F89BA003BF744 /* DRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D5D961C3F89BA003BF744 /* DRImageView.m */; };
+		182D5D991C3F9EC6003BF744 /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182D5D981C3F9EC6003BF744 /* boat.jpg */; };
+		1851B9BE1C3E43AD00249200 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851B9BD1C3E43AD00249200 /* DecayViewController.m */; };
+		1870E4201C3F48D500136B40 /* CustonPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870E41F1C3F48D500136B40 /* CustonPresentAnimator.m */; };
+		1870E4231C3F48E600136B40 /* customDismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870E4221C3F48E600136B40 /* customDismissAnimator.m */; };
+		1870E4261C3F592000136B40 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870E4251C3F592000136B40 /* CustomTransitionViewController.m */; };
+		1870E4291C3F5A3C00136B40 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870E4281C3F5A3C00136B40 /* ModelViewController.m */; };
+		1870E42B1C3F5F6300136B40 /* yilian_auth_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1870E42A1C3F5F6300136B40 /* yilian_auth_icon.jpg */; };
+		18A657D61C3CB9C8002C915F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A657D51C3CB9C8002C915F /* main.m */; };
+		18A657D91C3CB9C8002C915F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A657D81C3CB9C8002C915F /* AppDelegate.m */; };
+		18A657DC1C3CB9C8002C915F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A657DB1C3CB9C8002C915F /* ViewController.m */; };
+		18A657DF1C3CB9C8002C915F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A657DD1C3CB9C8002C915F /* Main.storyboard */; };
+		18A657E11C3CB9C8002C915F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A657E01C3CB9C8002C915F /* Assets.xcassets */; };
+		18A657E41C3CB9C8002C915F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A657E21C3CB9C8002C915F /* LaunchScreen.storyboard */; };
+		18A657EF1C3CB9C8002C915F /* POP___1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A657EE1C3CB9C8002C915F /* POP___1Tests.m */; };
+		18A657FA1C3CB9C8002C915F /* POP___1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A657F91C3CB9C8002C915F /* POP___1UITests.m */; };
+		18A659111C3CBEA3002C915F /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658E01C3CBEA3002C915F /* POPAnimatableProperty.mm */; };
+		18A659121C3CBEA3002C915F /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658E21C3CBEA3002C915F /* POPAnimation.mm */; };
+		18A659131C3CBEA3002C915F /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658E41C3CBEA3002C915F /* POPAnimationEvent.mm */; };
+		18A659141C3CBEA3002C915F /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658E71C3CBEA3002C915F /* POPAnimationExtras.mm */; };
+		18A659151C3CBEA3002C915F /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658EB1C3CBEA3002C915F /* POPAnimationRuntime.mm */; };
+		18A659161C3CBEA3002C915F /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658ED1C3CBEA3002C915F /* POPAnimationTracer.mm */; };
+		18A659171C3CBEA3002C915F /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658F01C3CBEA3002C915F /* POPAnimator.mm */; };
+		18A659181C3CBEA3002C915F /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658F31C3CBEA3002C915F /* POPBasicAnimation.mm */; };
+		18A659191C3CBEA3002C915F /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658F61C3CBEA3002C915F /* POPCGUtils.mm */; };
+		18A6591A1C3CBEA3002C915F /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658F81C3CBEA3002C915F /* POPCustomAnimation.mm */; };
+		18A6591B1C3CBEA3002C915F /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658FA1C3CBEA3002C915F /* POPDecayAnimation.mm */; };
+		18A6591C1C3CBEA3002C915F /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A658FE1C3CBEA3002C915F /* POPGeometry.mm */; };
+		18A6591D1C3CBEA3002C915F /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A659001C3CBEA3002C915F /* POPLayerExtras.mm */; };
+		18A6591E1C3CBEA3002C915F /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A659021C3CBEA3002C915F /* POPMath.mm */; };
+		18A6591F1C3CBEA3002C915F /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A659041C3CBEA3002C915F /* POPPropertyAnimation.mm */; };
+		18A659201C3CBEA3002C915F /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A659071C3CBEA3002C915F /* POPSpringAnimation.mm */; };
+		18A659211C3CBEA3002C915F /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 18A6590B1C3CBEA3002C915F /* POPVector.mm */; };
+		18A659221C3CBEA3002C915F /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A6590E1C3CBEA3002C915F /* TransformationMatrix.cpp */; };
+		18A6597C1C3D0887002C915F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6597B1C3D0887002C915F /* BaseViewController.m */; };
+		18A659811C3D0A34002C915F /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A659801C3D0A34002C915F /* ListCell.m */; };
+		18A659851C3D14CD002C915F /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A659841C3D14CD002C915F /* ButtonViewController.m */; };
+		18A659891C3D1570002C915F /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A659881C3D1570002C915F /* FlatButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A657EB1C3CB9C8002C915F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A657C91C3CB9C8002C915F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A657D01C3CB9C8002C915F;
+			remoteInfo = "POP的练习1";
+		};
+		18A657F61C3CB9C8002C915F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A657C91C3CB9C8002C915F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A657D01C3CB9C8002C915F;
+			remoteInfo = "POP的练习1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180032C31C43394A00E64A36 /* TintLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TintLabel.h; sourceTree = "<group>"; };
+		180032C41C43394A00E64A36 /* TintLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TintLabel.m; sourceTree = "<group>"; };
+		180032CD1C433BB400E64A36 /* UILabel+TintChanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TintChanger.h"; sourceTree = "<group>"; };
+		180032CE1C433BB400E64A36 /* UILabel+TintChanger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TintChanger.m"; sourceTree = "<group>"; };
+		180032D01C435B4500E64A36 /* PagerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerButton.h; sourceTree = "<group>"; };
+		180032D11C435B4500E64A36 /* PagerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerButton.m; sourceTree = "<group>"; };
+		180032D31C4388AB00E64A36 /* PagerButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerButtonViewController.h; sourceTree = "<group>"; };
+		180032D41C4388AB00E64A36 /* PagerButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerButtonViewController.m; sourceTree = "<group>"; };
+		182D5D921C3F897D003BF744 /* ImageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewViewController.h; sourceTree = "<group>"; };
+		182D5D931C3F897D003BF744 /* ImageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewViewController.m; sourceTree = "<group>"; };
+		182D5D951C3F89BA003BF744 /* DRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRImageView.h; sourceTree = "<group>"; };
+		182D5D961C3F89BA003BF744 /* DRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRImageView.m; sourceTree = "<group>"; };
+		182D5D981C3F9EC6003BF744 /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		1851B9BC1C3E43AD00249200 /* DecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
+		1851B9BD1C3E43AD00249200 /* DecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		1870E41E1C3F48D500136B40 /* CustonPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonPresentAnimator.h; sourceTree = "<group>"; };
+		1870E41F1C3F48D500136B40 /* CustonPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonPresentAnimator.m; sourceTree = "<group>"; };
+		1870E4211C3F48E600136B40 /* customDismissAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customDismissAnimator.h; sourceTree = "<group>"; };
+		1870E4221C3F48E600136B40 /* customDismissAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customDismissAnimator.m; sourceTree = "<group>"; };
+		1870E4241C3F592000136B40 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
+		1870E4251C3F592000136B40 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
+		1870E4271C3F5A3C00136B40 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		1870E4281C3F5A3C00136B40 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		1870E42A1C3F5F6300136B40 /* yilian_auth_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yilian_auth_icon.jpg; sourceTree = "<group>"; };
+		18A657D11C3CB9C8002C915F /* POP的练习1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POP的练习1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A657D51C3CB9C8002C915F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A657D71C3CB9C8002C915F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A657D81C3CB9C8002C915F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A657DA1C3CB9C8002C915F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A657DB1C3CB9C8002C915F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A657DE1C3CB9C8002C915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A657E01C3CB9C8002C915F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A657E31C3CB9C8002C915F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A657E51C3CB9C8002C915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A657EA1C3CB9C8002C915F /* POP的练习1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP的练习1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A657EE1C3CB9C8002C915F /* POP___1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "POP___1Tests.m"; sourceTree = "<group>"; };
+		18A657F01C3CB9C8002C915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A657F51C3CB9C8002C915F /* POP的练习1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP的练习1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A657F91C3CB9C8002C915F /* POP___1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "POP___1UITests.m"; sourceTree = "<group>"; };
+		18A657FB1C3CB9C8002C915F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A658DD1C3CBEA3002C915F /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		18A658DE1C3CBEA3002C915F /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		18A658DF1C3CBEA3002C915F /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		18A658E01C3CBEA3002C915F /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		18A658E11C3CBEA3002C915F /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		18A658E21C3CBEA3002C915F /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		18A658E31C3CBEA3002C915F /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		18A658E41C3CBEA3002C915F /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		18A658E51C3CBEA3002C915F /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		18A658E61C3CBEA3002C915F /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		18A658E71C3CBEA3002C915F /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		18A658E81C3CBEA3002C915F /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		18A658E91C3CBEA3002C915F /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		18A658EA1C3CBEA3002C915F /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		18A658EB1C3CBEA3002C915F /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		18A658EC1C3CBEA3002C915F /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		18A658ED1C3CBEA3002C915F /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		18A658EE1C3CBEA3002C915F /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		18A658EF1C3CBEA3002C915F /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		18A658F01C3CBEA3002C915F /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		18A658F11C3CBEA3002C915F /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		18A658F21C3CBEA3002C915F /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		18A658F31C3CBEA3002C915F /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		18A658F41C3CBEA3002C915F /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		18A658F51C3CBEA3002C915F /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		18A658F61C3CBEA3002C915F /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		18A658F71C3CBEA3002C915F /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		18A658F81C3CBEA3002C915F /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		18A658F91C3CBEA3002C915F /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		18A658FA1C3CBEA3002C915F /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		18A658FB1C3CBEA3002C915F /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		18A658FC1C3CBEA3002C915F /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		18A658FD1C3CBEA3002C915F /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		18A658FE1C3CBEA3002C915F /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		18A658FF1C3CBEA3002C915F /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		18A659001C3CBEA3002C915F /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		18A659011C3CBEA3002C915F /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		18A659021C3CBEA3002C915F /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		18A659031C3CBEA3002C915F /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		18A659041C3CBEA3002C915F /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		18A659051C3CBEA3002C915F /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		18A659061C3CBEA3002C915F /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		18A659071C3CBEA3002C915F /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		18A659081C3CBEA3002C915F /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		18A659091C3CBEA3002C915F /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		18A6590A1C3CBEA3002C915F /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		18A6590B1C3CBEA3002C915F /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		18A6590D1C3CBEA3002C915F /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		18A6590E1C3CBEA3002C915F /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		18A6590F1C3CBEA3002C915F /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		18A659101C3CBEA3002C915F /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		18A6597A1C3D0887002C915F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		18A6597B1C3D0887002C915F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		18A6597F1C3D0A34002C915F /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		18A659801C3D0A34002C915F /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		18A659831C3D14CD002C915F /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		18A659841C3D14CD002C915F /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		18A659871C3D1570002C915F /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		18A659881C3D1570002C915F /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A657CE1C3CB9C8002C915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657E71C3CB9C8002C915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657F21C3CB9C8002C915F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180032C21C43391A00E64A36 /* TestUIS */ = {
+			isa = PBXGroup;
+			children = (
+				180032C31C43394A00E64A36 /* TintLabel.h */,
+				180032C41C43394A00E64A36 /* TintLabel.m */,
+				180032CD1C433BB400E64A36 /* UILabel+TintChanger.h */,
+				180032CE1C433BB400E64A36 /* UILabel+TintChanger.m */,
+			);
+			name = TestUIS;
+			sourceTree = "<group>";
+		};
+		1870E41D1C3F48A800136B40 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				1870E41E1C3F48D500136B40 /* CustonPresentAnimator.h */,
+				1870E41F1C3F48D500136B40 /* CustonPresentAnimator.m */,
+				1870E4211C3F48E600136B40 /* customDismissAnimator.h */,
+				1870E4221C3F48E600136B40 /* customDismissAnimator.m */,
+			);
+			name = Animator;
+			sourceTree = "<group>";
+		};
+		18A657C81C3CB9C8002C915F = {
+			isa = PBXGroup;
+			children = (
+				18A657D31C3CB9C8002C915F /* POP的练习1 */,
+				18A657ED1C3CB9C8002C915F /* POP的练习1Tests */,
+				18A657F81C3CB9C8002C915F /* POP的练习1UITests */,
+				18A657D21C3CB9C8002C915F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A657D21C3CB9C8002C915F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A657D11C3CB9C8002C915F /* POP的练习1.app */,
+				18A657EA1C3CB9C8002C915F /* POP的练习1Tests.xctest */,
+				18A657F51C3CB9C8002C915F /* POP的练习1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A657D31C3CB9C8002C915F /* POP的练习1 */ = {
+			isa = PBXGroup;
+			children = (
+				180032C21C43391A00E64A36 /* TestUIS */,
+				1870E41D1C3F48A800136B40 /* Animator */,
+				18A659861C3D1549002C915F /* Control */,
+				18A659821C3D14B9002C915F /* VC */,
+				18A6597E1C3D0A23002C915F /* Cells */,
+				18A6597D1C3D0A06002C915F /* Base */,
+				18A658DC1C3CBEA3002C915F /* pop */,
+				18A657E01C3CB9C8002C915F /* Assets.xcassets */,
+				18A657E21C3CB9C8002C915F /* LaunchScreen.storyboard */,
+				18A657E51C3CB9C8002C915F /* Info.plist */,
+				18A657D41C3CB9C8002C915F /* Supporting Files */,
+			);
+			path = "POP的练习1";
+			sourceTree = "<group>";
+		};
+		18A657D41C3CB9C8002C915F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A657D51C3CB9C8002C915F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A657ED1C3CB9C8002C915F /* POP的练习1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18A657EE1C3CB9C8002C915F /* POP___1Tests.m */,
+				18A657F01C3CB9C8002C915F /* Info.plist */,
+			);
+			path = "POP的练习1Tests";
+			sourceTree = "<group>";
+		};
+		18A657F81C3CB9C8002C915F /* POP的练习1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A657F91C3CB9C8002C915F /* POP___1UITests.m */,
+				18A657FB1C3CB9C8002C915F /* Info.plist */,
+			);
+			path = "POP的练习1UITests";
+			sourceTree = "<group>";
+		};
+		18A658DC1C3CBEA3002C915F /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				18A658DD1C3CBEA3002C915F /* POP.h */,
+				18A658DE1C3CBEA3002C915F /* POPAction.h */,
+				18A658DF1C3CBEA3002C915F /* POPAnimatableProperty.h */,
+				18A658E01C3CBEA3002C915F /* POPAnimatableProperty.mm */,
+				18A658E11C3CBEA3002C915F /* POPAnimation.h */,
+				18A658E21C3CBEA3002C915F /* POPAnimation.mm */,
+				18A658E31C3CBEA3002C915F /* POPAnimationEvent.h */,
+				18A658E41C3CBEA3002C915F /* POPAnimationEvent.mm */,
+				18A658E51C3CBEA3002C915F /* POPAnimationEventInternal.h */,
+				18A658E61C3CBEA3002C915F /* POPAnimationExtras.h */,
+				18A658E71C3CBEA3002C915F /* POPAnimationExtras.mm */,
+				18A658E81C3CBEA3002C915F /* POPAnimationInternal.h */,
+				18A658E91C3CBEA3002C915F /* POPAnimationPrivate.h */,
+				18A658EA1C3CBEA3002C915F /* POPAnimationRuntime.h */,
+				18A658EB1C3CBEA3002C915F /* POPAnimationRuntime.mm */,
+				18A658EC1C3CBEA3002C915F /* POPAnimationTracer.h */,
+				18A658ED1C3CBEA3002C915F /* POPAnimationTracer.mm */,
+				18A658EE1C3CBEA3002C915F /* POPAnimationTracerInternal.h */,
+				18A658EF1C3CBEA3002C915F /* POPAnimator.h */,
+				18A658F01C3CBEA3002C915F /* POPAnimator.mm */,
+				18A658F11C3CBEA3002C915F /* POPAnimatorPrivate.h */,
+				18A658F21C3CBEA3002C915F /* POPBasicAnimation.h */,
+				18A658F31C3CBEA3002C915F /* POPBasicAnimation.mm */,
+				18A658F41C3CBEA3002C915F /* POPBasicAnimationInternal.h */,
+				18A658F51C3CBEA3002C915F /* POPCGUtils.h */,
+				18A658F61C3CBEA3002C915F /* POPCGUtils.mm */,
+				18A658F71C3CBEA3002C915F /* POPCustomAnimation.h */,
+				18A658F81C3CBEA3002C915F /* POPCustomAnimation.mm */,
+				18A658F91C3CBEA3002C915F /* POPDecayAnimation.h */,
+				18A658FA1C3CBEA3002C915F /* POPDecayAnimation.mm */,
+				18A658FB1C3CBEA3002C915F /* POPDecayAnimationInternal.h */,
+				18A658FC1C3CBEA3002C915F /* POPDefines.h */,
+				18A658FD1C3CBEA3002C915F /* POPGeometry.h */,
+				18A658FE1C3CBEA3002C915F /* POPGeometry.mm */,
+				18A658FF1C3CBEA3002C915F /* POPLayerExtras.h */,
+				18A659001C3CBEA3002C915F /* POPLayerExtras.mm */,
+				18A659011C3CBEA3002C915F /* POPMath.h */,
+				18A659021C3CBEA3002C915F /* POPMath.mm */,
+				18A659031C3CBEA3002C915F /* POPPropertyAnimation.h */,
+				18A659041C3CBEA3002C915F /* POPPropertyAnimation.mm */,
+				18A659051C3CBEA3002C915F /* POPPropertyAnimationInternal.h */,
+				18A659061C3CBEA3002C915F /* POPSpringAnimation.h */,
+				18A659071C3CBEA3002C915F /* POPSpringAnimation.mm */,
+				18A659081C3CBEA3002C915F /* POPSpringAnimationInternal.h */,
+				18A659091C3CBEA3002C915F /* POPSpringSolver.h */,
+				18A6590A1C3CBEA3002C915F /* POPVector.h */,
+				18A6590B1C3CBEA3002C915F /* POPVector.mm */,
+				18A6590C1C3CBEA3002C915F /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		18A6590C1C3CBEA3002C915F /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				18A6590D1C3CBEA3002C915F /* FloatConversion.h */,
+				18A6590E1C3CBEA3002C915F /* TransformationMatrix.cpp */,
+				18A6590F1C3CBEA3002C915F /* TransformationMatrix.h */,
+				18A659101C3CBEA3002C915F /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+		18A6597D1C3D0A06002C915F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18A657D71C3CB9C8002C915F /* AppDelegate.h */,
+				18A657D81C3CB9C8002C915F /* AppDelegate.m */,
+				18A6597A1C3D0887002C915F /* BaseViewController.h */,
+				18A6597B1C3D0887002C915F /* BaseViewController.m */,
+				18A657DA1C3CB9C8002C915F /* ViewController.h */,
+				18A657DB1C3CB9C8002C915F /* ViewController.m */,
+				18A657DD1C3CB9C8002C915F /* Main.storyboard */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		18A6597E1C3D0A23002C915F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18A6597F1C3D0A34002C915F /* ListCell.h */,
+				18A659801C3D0A34002C915F /* ListCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		18A659821C3D14B9002C915F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				18A659831C3D14CD002C915F /* ButtonViewController.h */,
+				18A659841C3D14CD002C915F /* ButtonViewController.m */,
+				1851B9BC1C3E43AD00249200 /* DecayViewController.h */,
+				1851B9BD1C3E43AD00249200 /* DecayViewController.m */,
+				1870E4241C3F592000136B40 /* CustomTransitionViewController.h */,
+				1870E4251C3F592000136B40 /* CustomTransitionViewController.m */,
+				1870E42A1C3F5F6300136B40 /* yilian_auth_icon.jpg */,
+				1870E4271C3F5A3C00136B40 /* ModelViewController.h */,
+				1870E4281C3F5A3C00136B40 /* ModelViewController.m */,
+				182D5D921C3F897D003BF744 /* ImageViewViewController.h */,
+				182D5D931C3F897D003BF744 /* ImageViewViewController.m */,
+				182D5D981C3F9EC6003BF744 /* boat.jpg */,
+				180032D31C4388AB00E64A36 /* PagerButtonViewController.h */,
+				180032D41C4388AB00E64A36 /* PagerButtonViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		18A659861C3D1549002C915F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				18A659871C3D1570002C915F /* FlatButton.h */,
+				18A659881C3D1570002C915F /* FlatButton.m */,
+				182D5D951C3F89BA003BF744 /* DRImageView.h */,
+				182D5D961C3F89BA003BF744 /* DRImageView.m */,
+				180032D01C435B4500E64A36 /* PagerButton.h */,
+				180032D11C435B4500E64A36 /* PagerButton.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A657D01C3CB9C8002C915F /* POP的练习1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A657FE1C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1" */;
+			buildPhases = (
+				18A657CD1C3CB9C8002C915F /* Sources */,
+				18A657CE1C3CB9C8002C915F /* Frameworks */,
+				18A657CF1C3CB9C8002C915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POP的练习1";
+			productName = "POP的练习1";
+			productReference = 18A657D11C3CB9C8002C915F /* POP的练习1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A657E91C3CB9C8002C915F /* POP的练习1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A658011C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1Tests" */;
+			buildPhases = (
+				18A657E61C3CB9C8002C915F /* Sources */,
+				18A657E71C3CB9C8002C915F /* Frameworks */,
+				18A657E81C3CB9C8002C915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A657EC1C3CB9C8002C915F /* PBXTargetDependency */,
+			);
+			name = "POP的练习1Tests";
+			productName = "POP的练习1Tests";
+			productReference = 18A657EA1C3CB9C8002C915F /* POP的练习1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A657F41C3CB9C8002C915F /* POP的练习1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A658041C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1UITests" */;
+			buildPhases = (
+				18A657F11C3CB9C8002C915F /* Sources */,
+				18A657F21C3CB9C8002C915F /* Frameworks */,
+				18A657F31C3CB9C8002C915F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A657F71C3CB9C8002C915F /* PBXTargetDependency */,
+			);
+			name = "POP的练习1UITests";
+			productName = "POP的练习1UITests";
+			productReference = 18A657F51C3CB9C8002C915F /* POP的练习1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A657C91C3CB9C8002C915F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CaiFu;
+				TargetAttributes = {
+					18A657D01C3CB9C8002C915F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = J437U9AE67;
+					};
+					18A657E91C3CB9C8002C915F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = J437U9AE67;
+						TestTargetID = 18A657D01C3CB9C8002C915F;
+					};
+					18A657F41C3CB9C8002C915F = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = J437U9AE67;
+						TestTargetID = 18A657D01C3CB9C8002C915F;
+					};
+				};
+			};
+			buildConfigurationList = 18A657CC1C3CB9C8002C915F /* Build configuration list for PBXProject "POP的练习1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A657C81C3CB9C8002C915F;
+			productRefGroup = 18A657D21C3CB9C8002C915F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A657D01C3CB9C8002C915F /* POP的练习1 */,
+				18A657E91C3CB9C8002C915F /* POP的练习1Tests */,
+				18A657F41C3CB9C8002C915F /* POP的练习1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A657CF1C3CB9C8002C915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A657E41C3CB9C8002C915F /* LaunchScreen.storyboard in Resources */,
+				182D5D991C3F9EC6003BF744 /* boat.jpg in Resources */,
+				18A657E11C3CB9C8002C915F /* Assets.xcassets in Resources */,
+				1870E42B1C3F5F6300136B40 /* yilian_auth_icon.jpg in Resources */,
+				18A657DF1C3CB9C8002C915F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657E81C3CB9C8002C915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657F31C3CB9C8002C915F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A657CD1C3CB9C8002C915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1870E4201C3F48D500136B40 /* CustonPresentAnimator.m in Sources */,
+				18A657DC1C3CB9C8002C915F /* ViewController.m in Sources */,
+				180032C51C43394A00E64A36 /* TintLabel.m in Sources */,
+				18A659151C3CBEA3002C915F /* POPAnimationRuntime.mm in Sources */,
+				18A659211C3CBEA3002C915F /* POPVector.mm in Sources */,
+				1870E4231C3F48E600136B40 /* customDismissAnimator.m in Sources */,
+				18A659121C3CBEA3002C915F /* POPAnimation.mm in Sources */,
+				18A659851C3D14CD002C915F /* ButtonViewController.m in Sources */,
+				18A659161C3CBEA3002C915F /* POPAnimationTracer.mm in Sources */,
+				18A657D91C3CB9C8002C915F /* AppDelegate.m in Sources */,
+				18A659811C3D0A34002C915F /* ListCell.m in Sources */,
+				18A6591C1C3CBEA3002C915F /* POPGeometry.mm in Sources */,
+				18A659221C3CBEA3002C915F /* TransformationMatrix.cpp in Sources */,
+				18A659141C3CBEA3002C915F /* POPAnimationExtras.mm in Sources */,
+				18A659131C3CBEA3002C915F /* POPAnimationEvent.mm in Sources */,
+				1870E4261C3F592000136B40 /* CustomTransitionViewController.m in Sources */,
+				18A659111C3CBEA3002C915F /* POPAnimatableProperty.mm in Sources */,
+				1870E4291C3F5A3C00136B40 /* ModelViewController.m in Sources */,
+				1851B9BE1C3E43AD00249200 /* DecayViewController.m in Sources */,
+				182D5D941C3F897D003BF744 /* ImageViewViewController.m in Sources */,
+				180032D51C4388AB00E64A36 /* PagerButtonViewController.m in Sources */,
+				18A659171C3CBEA3002C915F /* POPAnimator.mm in Sources */,
+				18A6591B1C3CBEA3002C915F /* POPDecayAnimation.mm in Sources */,
+				18A6597C1C3D0887002C915F /* BaseViewController.m in Sources */,
+				18A659201C3CBEA3002C915F /* POPSpringAnimation.mm in Sources */,
+				18A6591F1C3CBEA3002C915F /* POPPropertyAnimation.mm in Sources */,
+				18A659181C3CBEA3002C915F /* POPBasicAnimation.mm in Sources */,
+				18A6591D1C3CBEA3002C915F /* POPLayerExtras.mm in Sources */,
+				18A657D61C3CB9C8002C915F /* main.m in Sources */,
+				18A659191C3CBEA3002C915F /* POPCGUtils.mm in Sources */,
+				182D5D971C3F89BA003BF744 /* DRImageView.m in Sources */,
+				180032CF1C433BB400E64A36 /* UILabel+TintChanger.m in Sources */,
+				18A6591E1C3CBEA3002C915F /* POPMath.mm in Sources */,
+				18A6591A1C3CBEA3002C915F /* POPCustomAnimation.mm in Sources */,
+				180032D21C435B4500E64A36 /* PagerButton.m in Sources */,
+				18A659891C3D1570002C915F /* FlatButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657E61C3CB9C8002C915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A657EF1C3CB9C8002C915F /* POP___1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A657F11C3CB9C8002C915F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A657FA1C3CB9C8002C915F /* POP___1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A657EC1C3CB9C8002C915F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A657D01C3CB9C8002C915F /* POP的练习1 */;
+			targetProxy = 18A657EB1C3CB9C8002C915F /* PBXContainerItemProxy */;
+		};
+		18A657F71C3CB9C8002C915F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A657D01C3CB9C8002C915F /* POP的练习1 */;
+			targetProxy = 18A657F61C3CB9C8002C915F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A657DD1C3CB9C8002C915F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A657DE1C3CB9C8002C915F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A657E21C3CB9C8002C915F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A657E31C3CB9C8002C915F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A657FC1C3CB9C8002C915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A657FD1C3CB9C8002C915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A657FF1C3CB9C8002C915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "POP的练习1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A658001C3CB9C8002C915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "POP的练习1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A658021C3CB9C8002C915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "POP的练习1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POP的练习1.app/POP的练习1";
+			};
+			name = Debug;
+		};
+		18A658031C3CB9C8002C915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "POP的练习1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POP的练习1.app/POP的练习1";
+			};
+			name = Release;
+		};
+		18A658051C3CB9C8002C915F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POP的练习1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "POP的练习1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A658061C3CB9C8002C915F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "POP的练习1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "caifu.com.POP---1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "POP的练习1";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A657CC1C3CB9C8002C915F /* Build configuration list for PBXProject "POP的练习1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A657FC1C3CB9C8002C915F /* Debug */,
+				18A657FD1C3CB9C8002C915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A657FE1C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A657FF1C3CB9C8002C915F /* Debug */,
+				18A658001C3CB9C8002C915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A658011C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A658021C3CB9C8002C915F /* Debug */,
+				18A658031C3CB9C8002C915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A658041C3CB9C8002C915F /* Build configuration list for PBXNativeTarget "POP的练习1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A658051C3CB9C8002C915F /* Debug */,
+				18A658061C3CB9C8002C915F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A657C91C3CB9C8002C915F /* Project object */;
+}

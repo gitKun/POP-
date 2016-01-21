@@ -1,4 +1,4 @@
-# POP-
+# POPAnimationExmaple
 pop库做的动画
 
 _中间包含了一个会根据tintColor而改变textColor的label_
